@@ -34,4 +34,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: npm run testMocha && npm run pushResults
+      - run: npm run testMocha && npm run ciInstall && npm run pushResults
