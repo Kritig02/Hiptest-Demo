@@ -58,7 +58,7 @@ exports.Actionwords = {
   },
   searchResults: function (location, service) {
     return new Promise(function(resolve, reject) {
-      var url = "https://my.staging.kaodim.com/api/v2.2/services/service_types/" + service.slug + "/service_areas/" + location.slug + "/question_set.json?analytics=am"
+      var url = "https://my.staging.kaodim.com/pi/v2.2/services/service_types/" + service.slug + "/service_areas/" + location.slug + "/question_set.json?analytics=am"
       chai.request(url)
       .get('/')
       .end(function(err, res) {
