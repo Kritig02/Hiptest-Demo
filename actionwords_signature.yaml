@@ -1,0 +1,27 @@
+---
+- name: User can select a location
+  uid: 3bb2dbe2-7c32-4a1d-aa51-0f9a8f7744cc
+  parameters: []
+  body_hash: cb097da33df03a5b976eb4dcdb23c7a8
+- name: User can select a Service
+  uid: 366d8d54-7a3b-4f5a-b355-c392c423f919
+  parameters: []
+  body_hash: a1485deedf69b2c54f2e56a081aa3160
+- name: User will be shown the question set
+  uid: 56b35d4c-a832-4dee-a0b9-a264d2634355
+  parameters:
+  - name: location
+  - name: name
+  body_hash: f5ac08455d7ab5a9e880b92f6fc1a4ff
+- name: Search Results
+  uid: 56ffe703-741f-4fbe-a84c-bec6ffa4f5e9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Search Results should be empty
+  uid: 7e1456f1-fcd2-4ee4-87f2-ca856667e213
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Searches are valid
+  uid: e8254ef3-bfe5-4def-a03d-7e8b996fe98d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e

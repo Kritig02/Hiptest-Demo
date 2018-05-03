@@ -1,0 +1,26 @@
+{
+  "name": "hiptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testMocha": "node_modules/.bin/mocha . --reporter mocha-junit-reporter",
+    "pushResults": "hiptest-publisher -c hiptest-publisher.conf --push='test-results.xml' --test-run-id=156047"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kritig02/Hiptest-Demo.git"
+  },
+  "author": "Kriti Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kritig02/Hiptest-Demo/issues"
+  },
+  "homepage": "https://github.com/Kritig02/Hiptest-Demo#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.1.1",
+    "mocha-junit-reporter": "^1.17.0"
+  }
+}

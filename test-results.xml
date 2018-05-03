@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.068" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-05-03T15:19:07" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Hiptest Demo" timestamp="2018-05-03T15:19:07" tests="2" file="/Users/sahilchaddha/Projects/Hiptest/project_test.js" failures="0" time="6.068">
+    <testcase name="Hiptest Demo User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)" time="2.529" classname="User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)">
+    </testcase>
+    <testcase name="Hiptest Demo User Services Location Not Found (uid:955cbe71-8c39-4bf2-954a-b656ce1f75bc)" time="3.539" classname="User Services Location Not Found (uid:955cbe71-8c39-4bf2-954a-b656ce1f75bc)">
+    </testcase>
+  </testsuite>
+</testsuites>
