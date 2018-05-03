@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites name="Mocha Tests" time="0" tests="2" failures="2">
-  <testsuite name="Root Suite" timestamp="2018-05-03T15:48:59" tests="0" failures="0" time="0">
+  <testsuite name="Root Suite" timestamp="2018-05-03T15:52:36" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="Hiptest Demo" timestamp="2018-05-03T15:48:59" tests="2" file="/Users/sahilchaddha/Projects/Hiptest/project_test.js" failures="2" time="0">
+  <testsuite name="Hiptest Demo" timestamp="2018-05-03T15:52:36" tests="2" file="/Users/sahilchaddha/Projects/Hiptest/project_test.js" failures="2" time="0">
     <testcase name="Hiptest Demo User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)" time="0" classname="User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)">
       <failure><![CDATA[AssertionError: expected { Object (domain, _events, ...) } to have status code 200 but got 404
     at /Users/sahilchaddha/Projects/Hiptest/actionwords.js:66:27
