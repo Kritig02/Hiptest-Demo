@@ -10,10 +10,10 @@ chai.use(chaiHttp);
 
 
 exports.Actionwords = {
-  userCanSelectALocation: function () {
+    function () {
     // TODO: Implement result: "location_name"
     return new Promise(function(resolve, reject) {
-      chai.request('https://my.staging.kaodim.com/api/v1/services/service_areas')
+      chai.request('https://my.staging.kaodim.com/pi/v1/services/service_areas')
     .get('/')
     .end(function(err, res) {
       if (err) reject("ERROR FOUND")
