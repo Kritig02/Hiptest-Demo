@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0" tests="2" failures="2">
-  <testsuite name="Root Suite" timestamp="2018-05-03T15:52:36" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="4.846" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-05-03T16:50:55" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="Hiptest Demo" timestamp="2018-05-03T15:52:36" tests="2" file="/Users/sahilchaddha/Projects/Hiptest/project_test.js" failures="2" time="0">
-    <testcase name="Hiptest Demo User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)" time="0" classname="User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)">
-      <failure><![CDATA[AssertionError: expected { Object (domain, _events, ...) } to have status code 200 but got 404
-    at /Users/sahilchaddha/Projects/Hiptest/actionwords.js:66:27
-    at Test.Request.callback (node_modules/superagent/lib/node/index.js:716:12)
-    at parser (node_modules/superagent/lib/node/index.js:916:18)
-    at IncomingMessage.res.on (node_modules/superagent/lib/node/parsers/json.js:19:7)
-    at endReadableNT (_stream_readable.js:1059:12)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9)]]></failure>
+  <testsuite name="Hiptest Demo" timestamp="2018-05-03T16:50:55" tests="2" file="/Users/sahilchaddha/Projects/kriti_hiptest/Hiptest-Demo/project_test.js" failures="0" time="4.846">
+    <testcase name="Hiptest Demo User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)" time="2.684" classname="User can search for services in location (uid:74104d80-b0a9-43aa-8085-b5ab9b512fea)">
     </testcase>
-    <testcase name="Hiptest Demo User Services Location Not Found (uid:955cbe71-8c39-4bf2-954a-b656ce1f75bc)" time="0" classname="User Services Location Not Found (uid:955cbe71-8c39-4bf2-954a-b656ce1f75bc)">
-      <failure><![CDATA[AssertionError: expected { Object (domain, _events, ...) } to have status code 200 but got 404
-    at /Users/sahilchaddha/Projects/Hiptest/actionwords.js:66:27
-    at Test.Request.callback (node_modules/superagent/lib/node/index.js:716:12)
-    at parser (node_modules/superagent/lib/node/index.js:916:18)
-    at IncomingMessage.res.on (node_modules/superagent/lib/node/parsers/json.js:19:7)
-    at endReadableNT (_stream_readable.js:1059:12)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9)]]></failure>
+    <testcase name="Hiptest Demo User Services Location Not Found (uid:955cbe71-8c39-4bf2-954a-b656ce1f75bc)" time="2.162" classname="User Services Location Not Found (uid:955cbe71-8c39-4bf2-954a-b656ce1f75bc)">
     </testcase>
   </testsuite>
 </testsuites>

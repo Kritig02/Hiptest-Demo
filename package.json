@@ -6,7 +6,7 @@
   "scripts": {
     "testMocha": "node_modules/.bin/mocha . --reporter mocha-junit-reporter || true",
     "pushResults": "hiptest-publisher -c hiptest-publisher.conf --push='test-results.xml' --test-run-id=156047",
-    "ciInstall": "gem install hiptest-publisher && hiptest-publisher --version"
+    "ciInstall": "sudo gem install hiptest-publisher && hiptest-publisher --version"
   },
   "repository": {
     "type": "git",
